@@ -1,4 +1,12 @@
 """ min max  w seperated class structure for each """
+
+"""Operation,Complexity
+Heapify (Building the heap),O(N)
+Push (Inserting an element),O(logN)
+Pop (Removing the root),O(logN)
+Peek (Looking at the root),O(1)
+"""
+
 class MinHeap:
     def __init__(self):
         self.heap = []
@@ -96,3 +104,4 @@ if __name__ == "__main__":
         max_heap.push(v)
     while max_heap.heap:
         print(max_heap.pop(), end=" ")
+
