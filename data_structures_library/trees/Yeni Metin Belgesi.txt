@@ -1,5 +1,0 @@
-Operation,Complexity
-Heapify (Building the heap),O(N)
-Push (Inserting an element),O(logN)
-Pop (Removing the root),O(logN)
-Peek (Looking at the root),O(1)
