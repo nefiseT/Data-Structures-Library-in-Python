@@ -1,0 +1,27 @@
+append(): Adds an element at the end of the list.
+extend(): Adds multiple elements to the end of the list.
+insert(): Adds an element at a specific position.
+clear(): removes all items.
+
+remove(): Removes the first occurrence of an element.
+pop(): Removes the element at a specific index or the last element if no index is specified.
+del statement: Deletes an element at a specified index.
+
+Python, a list doesn’t store actual values directly. Instead, it stores references (pointers) to objects in memory. This means numbers, strings and booleans are separate objects in memory and the list just keeps their addresses.
+
+dynamic
+
+contains mix types of data 
+
+append()	Adds an element at the end of the list
+clear()	Removes all the elements from the list
+copy()	Returns a copy of the list
+count()	Returns the number of elements with the specified value
+extend()	Add the elements of a list (or any iterable), to the end of the current list
+index()	Returns the index of the first element with the specified value
+insert()	Adds an element at the specified position
+pop()	Removes the element at the specified position
+remove()	Removes the first item with the specified value
+reverse()	Reverses the order of the list
+sort()	Sorts the list
+
